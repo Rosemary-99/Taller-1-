@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Recomendaciones de Spotify</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#cancion-form").submit(function(e) {
+                e.preventDefault();
+                var cancion = $("#cancion").val();
+                $.ajax({
+                    type: "POST",
+                    url: "/predicttrack",
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify({
+                        "name": cancion
+                    }),
+                    success: function(data) {
+                        var items = [];
+                        $.each(data, function(i, track) {
+                            var item = "<li>" + track.name + " - " + track.artists + " - " + track.genres + "</li>";
+                            items.push(item);
+                        });
+                        $("ul").empty();
+                        if (items.length > 0) {
+                            $("ul").append(items.join(""));
+                        } else {
+                            $("ul").append("<li>No se encontraron canciones recomendadas</li>");
+                        }
+
+                        $("#res").text("Resultados de búsqueda: " + cancion);
+                        $("#cancion").val("");
+                    },
+                    error: function(xhr, status, error) {
+                        alert(xhr.responseText);
+                    }
+                });
+            });
+            $("#artista-form").submit(function(e) {
+                e.preventDefault();
+                var artista = $("#artista").val();
+                $.ajax({
+                    type: "POST",
+                    url: "/predictartist",
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify({
+                        "name": artista
+                    }),
+                    success: function(data) {
+                        var items = [];
+                        $.each(data, function(i, track) {
+                            var item = "<li>" + track.name + " - " + track.artists + " - " + track.genres + "</li>";
+                            items.push(item);
+                        });
+                        $("ul").empty();
+                        if (items.length > 0) {
+                            $("ul").append(items.join(""));
+                        } else {
+                            $("ul").append("<li>No se encontraron canciones recomendadas</li>");
+                        }
+                        $("#res").text("Resultados de búsqueda: " + artista);
+                        $("#artista").val("");
+                    },
+                    error: function(xhr, status, error) {
+                        alert(xhr.responseText);
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='Spotify_Logo.png') }}" alt="My Image">
+        <h1>Recomendaciones de Spotify</h1>
+    </header>
+
+    <main>
+        <form id="cancion-form">
+            <label for="cancion">Ingresa el nombre de una canción:</label>
+            <input type="text" id="cancion" name="cancion">
+            <button type="submit">Buscar</button>
+        </form>
+        <center><h2>O</h2></center>
+        <form id="artista-form">
+            <label for="artista">Ingresa el nombre de un artista:</label>
+            <input type="text" id="artista" name="artista">
+            <button type="submit">Buscar</button>
+        </form>
+
+        <section>
+            <h2 id="res"></h2>
+            <ul>
+                <!-- Aquí se mostrarán las canciones recomendadas -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Rosemary Rios</p>
+    </footer>
+</body>
+</html>
