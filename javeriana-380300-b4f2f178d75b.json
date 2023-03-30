@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "javeriana-380300",
+  "private_key_id": "b4f2f178d75b37e011732adcbfe3be9eb916edef",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCQGH//tLT65w2J\nnj0nxDjzBr+thHw3e9/4drXaUAKDz91/2YF5mjXAqmOOSxA84LATWB4z/vc5UDON\niLM+W/VtwDnkF1tFfLq3YZH4ROu2g4ucn+veuefsejK/bmwfJg0MIKkmjeMHAnGn\nuxeisAZuGWVDyUSIQcaTe4meOBrW1qbLZyT8XUX3bfC+HAL6Pl0r5+xZ8HamqEnt\nGEdp71V8PszxKw4tJRoW1dHsO63+MdP7n8F4ygF+dJmJsQdiIN08jeQe+q7QQOZ6\nwViBZbVA1EmCgqz/jiKp6nxHclnx3QPWkHngHxkfaGP488xOWNc//aO7ad83hHXE\nqzLtQchvAgMBAAECggEACj/L3u7GDrCfjGHWfL0exd59hMSPJ00m1Z/v+GrHewOu\ngBkC9hjLaPxVn3nkWkgrDf0vDMi+YfO77v3BrhZRYzCQjZJBujQQfdmxTcTtNSqv\nJAFWAB4eCnp4oJgklaSZufqavXTLKKT6W5FZsYcutecVhlhLCRwQmU3osHnSIuS/\nWYTwVRjChGe6QeQOPPv7sJ/gd/bLJirRsLhPhjfGGI6h5GoT+3wSk5gvXAJ/CexV\nIQy9jrjpWzd+1YaM3t3sCqKkCTurdhCG6qXZBc25iTdP/kKxPulM3TpOitbcMcZJ\nehWPxpla+FUS2uZoVYDzAKDG5m6mk3WNEJ9Rz3ViHQKBgQDHs6QoJaCXhrVc2Hvn\nPXkJt9v631mlie7FzE01dchD72d77teNeMgcfEyLdC71fOObcsQU9oRbBEFkuIem\n4R1O3iT+n4SsEAKUAq4f9+mGNrxLxOS3jp4gbFjvV464F/DVnihOmyE4mNBewOo2\nuSNvgucnhze4HSi3W4F1u/lSEwKBgQC4t83emsL2l+tCEA9PYrF2rWCYG9BWUV2C\nSUSJA6aLF8VcbfCE0ef1BvwceTX9KC5IfqaI7JFEm0TOAm3rlpSgfRJIDhlafzij\noM9HKhQ7nm92xp0GWaZZQaaKtHIkd1iMHBEvypmQzVNj3xVZ8mOJNPVXNIXK1bQ3\nHGTjrLpbtQKBgF4RodcDenVGEDJvC1Zu35ATWnz/LsRKh/4GcawoEjDmGdIIPOM4\nLNM2PfxGu0QKE1ELK5BQWyJgi8k9HzEdw2d+PuDuFVnTpNNBu/H1HryJFgN++Nn6\nRUQypWYA0YqoRFrryELW0jxNx4GK0Aj9BtMlT2uQR0/j9GUCpqXl6NifAoGAHb8r\n3h9aKlAIyNjBPm2MWqpNFfHUuTHdNzAJY289EMVBOUNTKnCLREBdtVAny57+5RnQ\nQ9ilBEFk8TAe94OGZ9n8abIrjxFR07f/6Vvzai53kM8nVnB1g4Y5BblNcGXv0pBq\njCG6XUFTno+8ZoHMWbo3kFWa/jEwFnfyH2AfmskCgYBV1H1Di+zGTGmR+XLygdfr\nSuLQqy64tXMsLQlL5q01N7E4+Kug2FtO9l9DV/f00qJrzIOIMGTRweHr1xVOu5j9\nAenNkUmFr7PO2c5igrrejBMAm3a7I0TmdndUWjmPmAWQNs7ihBawTl2k3OlGwnXj\nKco2GHeuwCZF6qSXQ7c8Fw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "javeriana-1@javeriana-380300.iam.gserviceaccount.com",
+  "client_id": "106689927600729312840",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/javeriana-1%40javeriana-380300.iam.gserviceaccount.com"
+}
