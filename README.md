@@ -41,4 +41,4 @@ Esta función permitió encontrar la llave que conectaría las tablas ver anexo 
 - Correr Recomienda_Spotify.ipynb
 - en su escritorio puede abrir picharm allí en una hoja diferente copie los siguientes codigos: main.py,  prediction_model.py, main.html, recomendaciónpg.html detallesinterfaz.css
 
-Cabe resaltar que por el tamaño de los archivos los CSV normalizados no se pueden cargar en Git Hub, sin embargo al ejecutar cada uno de los cosdigos y de acuerdo con las instrucciones, se generarán los nuevos archivos CSV.
+Cabe resaltar que por el tamaño de los archivos los CSV normalizados no se pueden cargar en Git Hub, sin embargo al ejecutar cada uno de los codigos y de acuerdo con las instrucciones, se generarán los nuevos archivos CSV.
