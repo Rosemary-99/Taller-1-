@@ -16,12 +16,14 @@ Organización del repositorio
 5) .json
 6) Dashboard power bi (adjunto en la entrega del aula virtual ya que por el tamaño del archivo no se puede subir en github)
 7) Recomienda_Spotify.ipynb
-8) main.py
-9) prediction_model.py
-10) main.html
-11) recomendaciónpg.html
-12) detallesinterfaz.css
-13) Taller parte 3.pdf 
+8)SS_app.jpg
+9)Dashboard (1).pdf
+10) main.py
+11) prediction_model.py
+12) main.html
+13) recomendaciónpg.html
+14) detallesinterfaz.css
+15) Taller parte 3.pdf 
 
 Detalles de la Ejecución
 - Inicie corriendo Taller_1_Spotify_Rosemary_Rios.ipynb
